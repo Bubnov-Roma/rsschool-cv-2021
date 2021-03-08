@@ -13,16 +13,17 @@ Hi! My name is Roma Bubnov and i am junior frontend developer from Russia. I lik
 ### Skills
 
 * HTML/CSS
-* ``` 
-* <header>
+* JavaScript
+* Java
+* GIT
+
+### Code examples
+
+```
+<header>
     <div class="wrapper">
       <h1 class="tag">webdev</h1>
       <div class="wrapper">
-        <div class="header__logo">
-          <a href="/" class="header__logo-link">
-            <img src="assets/img/logo.svg" alt="logo" class="header__logo-pik">
-          </a>
-        </div>
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__link">
@@ -43,9 +44,6 @@ Hi! My name is Roma Bubnov and i am junior frontend developer from Russia. I lik
       </div>
     </header>
   ```
-* JavaScript
-* Java
-* GIT
 
 ### Education
 
