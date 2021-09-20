@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -45,11 +46,20 @@ pre{
     font-style: 16px;
 }
 
+.header{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+    padding: 10px;
+    background: #5c5c5c;
+}
+
 .resume{
     width: 800px;
     height: auto;
     display: flex;
-    margin: 50px auto;
+    margin: auto;
 }
 
 .resume .resume_left{
@@ -117,7 +127,7 @@ pre{
 
 .resume .icon i,
 .resume .resume_right .resume_work ul li i,
-.resume .resume_right .resume_hobby ul li i{
+.resume .resume_right .project ul li i{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -170,7 +180,8 @@ pre{
 
 
 .resume .resume_right .resume_english_level ul,
-.resume .resume_right .resume_education ul{
+.resume .resume_right .resume_education ul,
+.resume .resume_right .project ul{
     padding-left: 40px;
     overflow: hidden;
 }
@@ -229,7 +240,8 @@ pre{
 *****************/
 
 .resume .resume_right .resume_education ul li:before,
-.resume .resume_right .resume_english_level ul li:before{
+.resume .resume_right .resume_english_level ul li:before,
+.resume .resume_right .project .project_subtitle ul li:before{
     content: "";
     position: absolute;
     top: 5px;
@@ -251,40 +263,34 @@ pre{
     background: #0bb5f4;
 }
 
-/****** Hobby *******/
 
-.resume .resume_right .resume_hobby ul{
+/****** Project *******/
+
+
+.project{
     display: flex;
     justify-content: space-between;
+    margin-left: 25px;
+
 }
 
-.resume .resume_right .resume_hobby ul li{
-    width: 80px;
-    height: 80px;
-    border: 2px solid #0bb5f4;
-    border-radius: 40%;
-    position: relative;
-    color: #0bb5f4;
+
+.resume .resume_right{
+    width: 520px;
+    background: #fff;
+    padding: 25px 25px 0 25px;
 }
 
-.resume .resume_right .resume_hobby ul li i{
-    font-size: 25px;
+.project_img{
+    
+    width: 250px;
+    height: 150px;
+    color: #009fd9;
+    border: solid #0bb5f4;
+    border-radius: 30px;
 }
 
-.resume .resume_right .resume_hobby ul li::before{
-    content: "";
-    position: absolute;
-    top: 40px;
-    right: -52px;
-    width: 50px;
-    height: 2px;
-    background: #0bb5f4;
-}
-
-.resume .resume_right .resume_hobby ul li:last-child::before,
-.resume .resume_right .resume_work ul li:last-child::before{
-    display: none;
-}
+/*************/
 
 
 /****** footer *******/
@@ -299,19 +305,22 @@ pre{
     background: #0bb5f4;
 }
 
-.footer .footer_wrapper{
+.footer .footer_wrapper,
+.header_wrapper{
     width: 100%;
     padding: 20px;
     margin: 0 auto;
     
 }
 
-.footer .footer_wrapper ul{
+.footer .footer_wrapper ul,
+.header_wrapper ul{
     display: flex;
     justify-content: space-between;
 }
 
-.footer .footer_wrapper ul li{
+.footer .footer_wrapper ul li,
+.header_wrapper ul li{
     width: 50px;
     margin: 0 auto;
 }
