@@ -48,7 +48,8 @@ Elementary
 
 ### Project
 [WILDLIFE](https://rolling-scopes-school.github.io/bubnov-roma-JSFE2021Q1/wildlife/)
+
 My first layout job. Used technology stack: HTML, CSS, Git.
 
 
-### [RS School](https://rs.school/js/) 2021
+### [RS School 2021](https://rs.school/js/) 
