@@ -204,40 +204,7 @@ pre{
     margin-bottom: 0;
 }
 
-/****** Code 
-
-.resume .resume_right .resume_work ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.resume .resume_right .resume_work ul li{
-    width: 80px;
-    height: 80px;
-    border: 2px solid #0bb5f4;
-    border-radius: 40%;
-    position: relative;
-    color: #0bb5f4;
-}
-
-
-
-.resume .resume_right .resume_work ul li i{
-    position: relative;
-    font-size: 30px;
-}
-
-.resume .resume_right .resume_work ul li::before{
-    content: "";
-    position: absolute;
-    top: 40px;
-    right: -52px;
-    width: 50px;
-    height: 2px;
-    background: #0bb5f4;
-}
-
-*****************/
+/*****************/
 
 .resume .resume_right .resume_education ul li:before,
 .resume .resume_right .resume_english_level ul li:before,
@@ -327,6 +294,3 @@ pre{
     width: 30px;
 }
 
-
-
-/**************************************************/
