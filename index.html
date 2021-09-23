@@ -7,6 +7,10 @@
     <title>Bubnov Roma CV_2021 RSScoope</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>    
     <header class="header"> 
@@ -169,13 +173,13 @@
             </div>
         </div>
         <div class="resume_right">
-            <div class="resume_item resume_about" id="about">
+            <article class="resume_item resume_about" id="about">
                 <div class="title">
                     <h2>About Me</h2>
                 </div>
                 <p>Hi! My name is Roma Bubnov and i am junior frontend developer from Russia. I like to develop different programs and develop in the field of programming and web technologies. Today we create our amazing tomorrow. The Internet and new technologies allow us to be together and work for the benefit of a common bright future, overcoming any boundaries and distances.</p>
-            </div>
-            <div class="resume_item resume_education" id="education">
+            </article>
+            <section class="resume_item resume_education" id="education">
                 <div class="title">
                     <h2>Education</h2>
                 </div>
@@ -202,19 +206,25 @@
                         </div>
                     </li>
                 </ul>
-            </div>
-            <div class="resume_item resume_work" id="code">
+            </section>
+            <section class="resume_item resume_work" id="code">
                 <div class="title">
                     <h2>Code examples</h2>
                 </div>
                 <pre>
-                    function multiply(a, b){
-                        return a * b;
-                        }​
-                        multiply();
-                    </pre>
-            </div>
-            <div class="resume_item resume_english_level" id="english">
+                        <code class="hljs js">
+                        function removeKFromList( l, k ){
+                            for (let i = 0; i < l.length; i++) {
+                              if(l[i] === k) {
+                                l.splice(i, 1);
+                              }
+                            }
+                            return l;
+                          }
+                        </code>
+                 </pre>
+            </section>
+            <section class="resume_item resume_english_level" id="english">
                 <div class="title">
                     <h2>English level</h2>
                 </div>
@@ -226,8 +236,8 @@
                         </div>
                     </li>
                 </ul>
-            </div> 
-            <div class="resume_item project" id="project">
+            </section> 
+            <section class="resume_item project" id="project">
                 <div class="project_wrapper">
                     <div class="title">
                         <h2>Project</h2>
@@ -242,7 +252,7 @@
                             </li>
                         </ul>   
                     </div>
-                </div>
+                </section>
                 <a href=" https://rolling-scopes-school.github.io/bubnov-roma-JSFE2021Q1/wildlife/" class="project_link" target="_blank" >
                     <img src="wildlife.jpeg" alt="img project" class="project_img">
                 </a>
