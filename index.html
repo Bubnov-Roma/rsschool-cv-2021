@@ -7,6 +7,10 @@
     <title>Bubnov Roma CV_2021 RSScoope</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>    
     <header class="header"> 
@@ -208,11 +212,17 @@
                     <h2>Code examples</h2>
                 </div>
                 <pre>
-                    function multiply(a, b){
-                        return a * b;
-                        }​
-                        multiply();
-                    </pre>
+                        <code class="hljs js">
+                        function removeKFromList( l, k ){
+                            for (let i = 0; i < l.length; i++) {
+                              if(l[i] === k) {
+                                l.splice(i, 1);
+                              }
+                            }
+                            return l;
+                          }
+                        </code>
+                 </pre>
             </section>
             <section class="resume_item resume_english_level" id="english">
                 <div class="title">
